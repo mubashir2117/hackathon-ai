@@ -131,10 +131,6 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/mubashir2117/physical-ai-textbook',
-            },
-            {
               label: 'GitHub Profile',
               href: 'https://github.com/mubashir2117',
             },
