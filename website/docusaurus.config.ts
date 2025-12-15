@@ -138,6 +138,14 @@ const config: Config = {
               label: 'GitHub Profile',
               href: 'https://github.com/mubashir2117',
             },
+             {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/mj_mubashir21/',
+            },
+             {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/mubashir-javaid-175a6728b',
+            },
           ],
         },
       ],
