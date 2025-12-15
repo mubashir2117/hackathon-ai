@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://yourusername.github.io',
+  url: 'https://mubashir2117.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yourusername', // Usually your GitHub org/user name.
-  projectName: 'my-book', // Usually your repo name.
+  organizationName: 'mubashir2117', // Usually your GitHub org/user name.
+  projectName: 'physical-ai-textbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -54,7 +54,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/yourusername/physical-ai-textbook/tree/main/website/',
+            'https://github.com/mubashir2117/physical-ai-textbook/tree/main/',
         },
         blog: false,
         theme: {
@@ -84,7 +84,11 @@ const config: Config = {
           label: 'Chapters',
         },
         {
-          href: 'https://github.com/yourusername/physical-ai-textbook',
+          type: 'localeDropdown',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/mubashir2117/physical-ai-textbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -124,11 +128,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Community',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/yourusername/physical-ai-textbook',
+              href: 'https://github.com/mubashir2117/physical-ai-textbook',
+            },
+            {
+              label: 'GitHub Profile',
+              href: 'https://github.com/mubashir2117',
             },
           ],
         },
