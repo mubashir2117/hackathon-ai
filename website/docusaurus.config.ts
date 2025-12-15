@@ -128,7 +128,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/yourusername/physical-ai-textbook',
+              href: 'https://github.com/mubashir2117/',
             },
           ],
         },
