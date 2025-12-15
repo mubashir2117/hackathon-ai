@@ -54,7 +54,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mubashir2117/tree/main/',
+            'https://github.com/mubashir2117/physical-ai-textbook/tree/main/',
         },
         blog: false,
         theme: {
@@ -88,7 +88,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/mubashir2117',
+          href: 'https://github.com/mubashir2117/physical-ai-textbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -132,11 +132,19 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/mubashir2117',
+              href: 'https://github.com/mubashir2117/physical-ai-textbook',
             },
             {
               label: 'GitHub Profile',
               href: 'https://github.com/mubashir2117',
+            },
+             {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/mj_mubashir21/',
+            },
+             {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/mubashir-javaid-175a6728b',
             },
           ],
         },
