@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Physical AI & Humanoid Robotics — Essentials',
+  title: 'Physical AI & Humanoid Robotics Essentials',
   tagline: 'A comprehensive guide to building intelligent physical systems',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/mj.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -74,7 +74,7 @@ const config: Config = {
       title: 'Physical AI Textbook',
       logo: {
         alt: 'Physical AI Logo',
-        src: 'img/logo.svg',
+        src: 'img/mj.svg',
       },
       items: [
         {
@@ -131,10 +131,6 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/mubashir2117/physical-ai-textbook',
-            },
-            {
               label: 'GitHub Profile',
               href: 'https://github.com/mubashir2117',
             },
@@ -149,7 +145,8 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI Textbook. Built with Docusaurus.`,
+     copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics.
+      Made by Mubashir.`,
     },
     prism: {
       theme: prismThemes.github,

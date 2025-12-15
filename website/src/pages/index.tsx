@@ -41,6 +41,7 @@ export default function Home(): ReactNode {
           <div className="container">
             <div className="row">
               <div className="col col--12">
+                <br />
                 <h2 style={{textAlign: 'center', marginBottom: '2rem'}}>Table of Contents</h2>
               </div>
             </div>
@@ -91,6 +92,7 @@ export default function Home(): ReactNode {
                 </div>
               </div>
             </div>
+            <br />
             <div className="row">
               <div className="col col--4">
                 <div className="card margin-bottom--lg">
@@ -140,7 +142,9 @@ export default function Home(): ReactNode {
             </div>
           </div>
         </section>
+        <br />
       </main>
+
     </Layout>
   );
 }
